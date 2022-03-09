@@ -14,6 +14,8 @@
 		05F2C1B627D923200098B3A0 /* CameraViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F2C1B527D923200098B3A0 /* CameraViewRepresentable.swift */; };
 		05F2C1B827D923E60098B3A0 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F2C1B727D923E60098B3A0 /* CameraView.swift */; };
 		05F2C1BC27D946660098B3A0 /* CameraViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F2C1BB27D946660098B3A0 /* CameraViewModel.swift */; };
+		05F2C1C027D95BC70098B3A0 /* UIImageColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F2C1BF27D95BC70098B3A0 /* UIImageColors.swift */; };
+		05F2C1C327D95FC50098B3A0 /* VideoOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F2C1C227D95FC50098B3A0 /* VideoOutput.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		05F2C1B727D923E60098B3A0 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
 		05F2C1B927D928520098B3A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		05F2C1BB27D946660098B3A0 /* CameraViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewModel.swift; sourceTree = "<group>"; };
+		05F2C1BF27D95BC70098B3A0 /* UIImageColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageColors.swift; sourceTree = "<group>"; };
+		05F2C1C227D95FC50098B3A0 /* VideoOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoOutput.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,7 @@
 				05F2C1A327D921930098B3A0 /* ColCoApp.swift */,
 				05F2C1A527D921930098B3A0 /* ContentView.swift */,
 				05F2C1A727D921950098B3A0 /* Assets.xcassets */,
+				05F2C1BD27D95BB70098B3A0 /* Global */,
 				05F2C1A927D921950098B3A0 /* Preview Content */,
 			);
 			path = ColCo;
@@ -79,6 +84,7 @@
 		05F2C1B127D923060098B3A0 /* Camera Module */ = {
 			isa = PBXGroup;
 			children = (
+				05F2C1C127D95FBA0098B3A0 /* Models */,
 				05F2C1BA27D946520098B3A0 /* ViewModels */,
 				05F2C1B427D923140098B3A0 /* Views */,
 			);
@@ -100,6 +106,30 @@
 				05F2C1BB27D946660098B3A0 /* CameraViewModel.swift */,
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		05F2C1BD27D95BB70098B3A0 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				05F2C1BE27D95BBC0098B3A0 /* UIImageColors */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		05F2C1BE27D95BBC0098B3A0 /* UIImageColors */ = {
+			isa = PBXGroup;
+			children = (
+				05F2C1BF27D95BC70098B3A0 /* UIImageColors.swift */,
+			);
+			path = UIImageColors;
+			sourceTree = "<group>";
+		};
+		05F2C1C127D95FBA0098B3A0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				05F2C1C227D95FC50098B3A0 /* VideoOutput.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,9 +202,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05F2C1C327D95FC50098B3A0 /* VideoOutput.swift in Sources */,
 				05F2C1B627D923200098B3A0 /* CameraViewRepresentable.swift in Sources */,
 				05F2C1A627D921930098B3A0 /* ContentView.swift in Sources */,
 				05F2C1A427D921930098B3A0 /* ColCoApp.swift in Sources */,
+				05F2C1C027D95BC70098B3A0 /* UIImageColors.swift in Sources */,
 				05F2C1BC27D946660098B3A0 /* CameraViewModel.swift in Sources */,
 				05F2C1B827D923E60098B3A0 /* CameraView.swift in Sources */,
 			);

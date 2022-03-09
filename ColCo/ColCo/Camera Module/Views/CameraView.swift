@@ -18,7 +18,7 @@ struct CameraView: View {
                         .background(.yellow)
                     Rectangle()
                         .fill(.clear)
-                        .frame(width: 5, height: 5)
+                        .frame(width: cameraArea.width, height: cameraArea.height)
                         .border(.black, width: 1.5)
                 }
                 bottomBar
