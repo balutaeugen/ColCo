@@ -1,2 +1,2 @@
 # ColCo
- Color Picker with Camera
+Camera Color Picker
